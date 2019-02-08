@@ -36,6 +36,7 @@ var pagination = function(opts) {
             clone.pagination.start = i * perPage;
             clone.pagination.end = i * perPage + perPage - 1;
             clone.pagination.num = i+1;
+	        clone.path = cloneName;
 
             files[cloneName] = clone;
 
